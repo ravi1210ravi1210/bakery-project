@@ -1,0 +1,621 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+main {
+  overflow: hidden;
+}
+
+/* Top header  */
+.top-head {
+  height: 30px;
+  background: rgb(53, 30, 110);
+  color: #fff;
+}
+
+.mid-line {
+  color: rgb(238, 161, 45);
+  margin-left: 20px;
+}
+
+/* main Navbar */
+.navbar {
+  background: #fff;
+
+}
+
+.nav {
+  overflow: hidden;
+}
+
+.nav-logo {
+  background: rgb(47, 25, 100);
+  height: 7rem;
+  position: absolute;
+  z-index: 20;
+  top: 1.9rem;
+  left: 2rem;
+  display: inline-block;
+  border-radius: 0% 0% 45%;
+
+}
+
+.nav-links {
+  list-style: none;
+  margin-left: 15%;
+  font-size: 1.4rem;
+}
+
+.nav-links li {
+  padding: 0.6rem 1rem;
+}
+
+
+
+.nav-links li:hover,
+.active-toggle li:hover {
+  background: #fc7c7c;
+  border-radius: 8px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  cursor: pointer;
+
+}
+
+.nav-icon {
+  font-size: 1.4rem;
+}
+
+.toogle-menu {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.active-toggle li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.active-toggle a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.active-toggle {
+  width: 30%;
+  position: absolute;
+  background-color: #ffffff6f;
+  margin-left: 70%;
+  margin-top: 1%;
+  border-radius: 16px;
+  padding: 16px 32px;
+
+  display: none;
+}
+
+
+.crose {
+  color: red;
+  font-size: 2rem;
+  font-weight: 900;
+  padding: 0px 9px;
+  display: none;
+  cursor: pointer;
+}
+
+
+/* Hero Section  */
+.hero-section {
+  background: #faf5e1;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  height: 90vh;
+  position: relative;
+  z-index: -100;
+}
+
+.hero-section img {
+  position: absolute;
+  display: inline-block;
+  height: 5rem;
+  width: auto;
+}
+
+.hero-section .img-1 {
+  position: absolute;
+  top: 10%;
+  left: 8%;
+}
+
+.hero-section .img-2 {
+  position: absolute;
+  top: 10%;
+  left: 85%;
+}
+
+.hero-section .img-3 {
+  position: absolute;
+  top: 40%;
+  left: 80%;
+}
+
+.hero-section .img-4 {
+  position: absolute;
+  top: 80%;
+}
+
+.hero-section .img-5 {
+  position: absolute;
+  top: 80%;
+  left: 85%;
+}
+
+.hero-mid {
+  position: relative;
+  top: 20%;
+}
+
+.hero-box-1 {
+  position: relative;
+  width: 40%;
+  height: auto;
+
+
+}
+
+.hero-box-1 h1 {
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+  word-spacing: 12px;
+  font-size: 4rem;
+
+}
+
+.text-1 {
+  color: #fc7c7c;
+}
+
+.Btn {
+  margin-top: 1rem;
+  padding: 14px 24px;
+  font-size: 1.5rem;
+  border-radius: 36px;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  background: #fc7c7c;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0d6efd;
+
+}
+
+.hero-box-2 img {
+  position: relative;
+  height: 60vh;
+  width: auto;
+  margin-top: 2rem;
+  cursor: pointer;
+  right: 20%;
+  animation-name: up-down;
+  animation-iteration-count: infinite;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-direction: alternate;
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(20px);
+  }
+}
+
+
+/* section 2 */
+
+.sec-box-border {
+  border-right: 1px solid lightgray;
+
+}
+
+.sec-box-1 {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-box-1 img {
+  height: 25vh;
+  width: auto;
+}
+
+.sec-box-1-text {}
+
+
+
+
+/* SECTION 3  */
+.section-3 {
+  /* overflow: hidden;
+  z-index: -20; */
+}
+
+.sec-3-row {
+  z-index: -1000;
+}
+
+.sec-3-box-1 {
+  width: 40%;
+  height: 50vh;
+  background-image: url(https://template.hasthemes.com/bucker/bucker/assets/img/bg/banner1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  border-radius: 18px;
+  overflow: hidden;
+  z-index: -10;
+  margin-right: 1rem;
+}
+
+.sec-3-box-2 {
+  width: 40%;
+  height: 50vh;
+  background-image: url(https://template.hasthemes.com/bucker/bucker/assets/img/bg/banner2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  border-radius: 18px;
+  overflow: hidden;
+  z-index: -10;
+  margin-left: 1rem;
+}
+
+.sec-3-box-1 img {}
+
+.Btn-2 {
+  background: #fc7c7c;
+  padding: 12px 18px;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  border-radius: 26px;
+  /* cursor: pointer; */
+  transition: all 0.3s ease-in-out;
+
+}
+
+.Btn-2:hover {
+  /* animation: Btn2 1.5s ease-in 0s; */
+  transform: translateX(100px);
+  background: red;
+
+}
+
+@keyframes Btn2 {
+  0% {
+    background: #0d6efd;
+
+  }
+
+  100% {
+    background: #0d6efd;
+  }
+}
+
+.sec-3-text {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 10vh;
+  left: 12%;
+
+}
+
+.section-4 ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  list-style: none;
+  font-size: 2rem;
+  margin-top: 2rem;
+
+}
+
+.section-4 ul a {
+  color: #fc7c7c;
+  transition: all 0.3s ease;
+}
+
+.section-4 ul a:hover {
+  color: #0d6efd;
+}
+
+.section-4 h1 {
+  font-size: 4rem;
+}
+
+.shop,
+.heart,
+.eye {
+  background: rgb(47, 25, 100);
+  height: 30px;
+  color: #fff;
+  width: 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  bottom: 100px;
+  display: none;
+}
+
+.shop:hover,
+.heart:hover,
+.eye:hover {
+
+  color: #fc7c7c;
+}
+
+.itme-1 {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.itme-1:hover .shop,
+.itme-1:hover .heart,
+.itme-1:hover .eye {
+  display: block;
+
+}
+
+.sec-5 {
+  background-image: url(https://template.hasthemes.com/bucker/bucker/assets/img/bg/banner-fullwidth1.png);
+  background-size: cover;
+  ;
+  background-repeat: no-repeat;
+  height: 50vh auto;
+}
+
+.sec-5-btn {
+  display: inline-block;
+  background: #fc7c7c;
+  color: #fff;
+
+}
+
+.sec-5-btn:hover {
+  color: #fc7c7c;
+  animation-name: Shopnow;
+  animation-duration: 1.3sec;
+  animation-delay: 0.3s;
+  visibility: visible;
+}
+
+@keyframes Shopnow {
+
+  0% {
+    transform: translateY(30px);
+
+  }
+
+
+  100% {
+    transform: translateY(0);
+
+
+  }
+}
+
+.sec-7-row {
+  background: rgb(73, 73, 143);
+  padding: 2rem;
+  border-radius: 16px;
+  display: flex;
+}
+
+.sec-7-col {
+  border-right: 1px solid gray;
+}
+
+.sec-7-col-1 {
+  background-image: url(https://template.hasthemes.com/bucker/bucker/assets/img/others/brand1.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  transition: all 0.3s ease;
+  height: 20vh;
+  cursor: pointer;
+}
+
+.sec-7-col-1:hover {
+  background-image: url(https://template.hasthemes.com/bucker/bucker/assets/img/others/brand-hover1.png);
+}
+
+.sec-7-col-2 {
+  background-image: url(https://template.hasthemes.com/bucker/bucker/assets/img/others/brand2.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  transition: all 0.3s ease;
+  height: 20vh;
+  cursor: pointer;
+}
+
+.sec-7-col-2:hover {
+  background-image: url(https://template.hasthemes.com/bucker/bucker/assets/img/others/brand-hover2.png);
+}
+
+.sec-7-col-3 {
+  background-image: url(https://template.hasthemes.com/bucker/bucker/assets/img/others/brand3.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  transition: all 0.3s ease;
+  height: 20vh;
+  cursor: pointer;
+}
+
+.sec-7-col-3:hover {
+  background-image: url(https://template.hasthemes.com/bucker/bucker/assets/img/others/brand-hover3.png);
+}
+
+.sec-7-col-4 {
+  background-image: url(https://template.hasthemes.com/bucker/bucker/assets/img/others/brand4.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  transition: all 0.3s ease;
+  height: 20vh;
+  cursor: pointer;
+}
+
+.sec-7-col-4:hover {
+  background-image: url(https://template.hasthemes.com/bucker/bucker/assets/img/others/brand-hover4.png);
+}
+
+
+.sec-8-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0% 10%;
+
+}
+
+.sec-8-col {
+  cursor: pointer;
+}
+
+.sec-8-col p {
+  font-size: 24px;
+  font-weight: 600;
+  color: gray;
+}
+
+.sec-8-col img {
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.sec-8-col:hover img {
+  transform: scale(1.05);
+}
+
+.sec-8-col-2 img {
+  height: 40px;
+  width: 40px;
+  margin: 16px;
+}
+
+.sec-8-col-2 h6 {
+  margin-top: 24px;
+}
+
+.sec-8-col h4 {
+  background: #fc7c7c;
+  color: #fff;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 8px;
+  margin: 18px;
+}
+
+
+
+.sec-8-btn {
+  background: #FFF;
+  color: rgb(73, 73, 143);
+  box-shadow: 1px 8px 16px rgba(0, 0, 0, 0.5);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: relative;
+  left: 80%;
+  bottom: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.sec-8-btn:hover {
+  background: #fc7c7c;
+  color: #FFF;
+}
+
+.section-8-col {
+  border-radius: 16px;
+  box-shadow: 1px 8px 16px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+
+footer {
+  background: rgb(62, 85, 128);
+  color: #fff;
+}
+
+.foot1-icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: #fc7c7c;
+  color: #FFF;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 30%;
+  top: 8vh;
+}
+
+.go-top {
+  background: #fc7c7c;
+  color: #fff;
+  height: 50px;
+  width: 50px;
+  z-index: 1000;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  border: 2px solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  position: fixed;
+  left: 90%;
+  bottom: 40px;
+}
+
+.fa-arrow-up {
+  position: relative;
+  left: 25%;
+  top: 0.8rem;
+  font-size: 1.2rem;
+}
